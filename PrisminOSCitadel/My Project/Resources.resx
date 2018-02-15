@@ -1,0 +1,949 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_check_off_disabled_focused_holo_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_check_off_disabled_focused_holo_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_day_weather_fs_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_day_weather_fs_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TaskbarThemep" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TaskbarThemep.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textfield_search_pressed_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textfield_search_pressed.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_textfield_search_selected_holo_dark_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_textfield_search_selected_holo_dark.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_2nd_depth_fahrenheit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_2nd_depth_fahrenheit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Start2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Start2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShortcutFiles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ShortcutFiles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_day_weather_fs_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_day_weather_fs_05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_night_weather_fs_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_night_weather_fs_13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="popup_city_pressed_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\popup_city_pressed.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="accuweather_trayicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\accuweather_trayicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_action_bar_icon_setting_holo_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_action_bar_icon_setting_holo_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_12_13_39_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_12_13_39_40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hero_event_ic_newyear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hero_event_ic_newyear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_list_pressed_holo_dark_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_list_pressed_holo_dark.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_check_off_disabled_holo_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_check_off_disabled_holo_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_day_weather_fs_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_day_weather_fs_03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_34_35_36_37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_34_35_36_37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_night_weather_fs_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_night_weather_fs_08.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_bg_sunny_day_sky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_bg_sunny_day_sky.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_check_on_disabled_holo_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_check_on_disabled_holo_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileExplorerMusic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FileExplorerMusic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hero_2nd_depth_vertical_line_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hero_2nd_depth_vertical_line.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="widget_hero_divider" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\widget_hero_divider.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_action_bar_icon_new_add_holo_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_action_bar_icon_new_add_holo_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hero_2nd_depth_bottom_temperature_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hero_2nd_depth_bottom_temperature_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_menu_change_order" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_menu_change_order.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_pressed_detail_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_pressed_detail.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_day_weather_fs_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_day_weather_fs_07.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_night_weather_fs_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_night_weather_fs_11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_check_off_pressed_holo_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_check_off_pressed_holo_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_menu_settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_menu_settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="time_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_night_weather_fs_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_night_weather_fs_06.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_check_on_pressed_holo_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_check_on_pressed_holo_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="list" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\list.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_search_dialog_voice_selected_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_search_dialog_voice_selected.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_night_weather_fs_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_night_weather_fs_20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_day_weather_fs_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_day_weather_fs_10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_check_on_focused_holo_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_check_on_focused_holo_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hero_2nd_depth_celsius" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hero_2nd_depth_celsius.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_rain_day" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_rain_day.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_action_bar_bottom_moreoverflow_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_action_bar_bottom_moreoverflow_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="popup_city_focus_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\popup_city_focus.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_list_focused_holo_dark_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_list_focused_holo_dark.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="time_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_list_icon_reorder_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_list_icon_reorder_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="time_center" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time_center.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_ab_transparent_dark_holo_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_ab_transparent_dark_holo.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_night_weather_fs_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_night_weather_fs_04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="top_arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\top_arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_btn_select_dark_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_btn_select_dark.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Line2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Line2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="time_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="popup_city_normal_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\popup_city_normal.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_btn_press_dark_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_btn_press_dark.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="title_bar_list_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\title_bar_list_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_list_selected_holo_dark_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_list_selected_holo_dark.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Taskbar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hero_2nd_depth_bottom_temperature_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hero_2nd_depth_bottom_temperature_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_bg_snow_night_land" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_bg_snow_night_land.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_list_icon_reorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_list_icon_reorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_sub_action_bar_bg_holo_dark_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_sub_action_bar_bg_holo_dark.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_2nd_depth_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_2nd_depth_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_19_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_19_43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_btn_search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_btn_search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_night_weather_fs_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_night_weather_fs_17.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_day_weather_fs_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_day_weather_fs_04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_bg_rain_day_sky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_bg_rain_day_sky.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_day_weather_fs_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_day_weather_fs_02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temparature_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\temparature_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_btn_location" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_btn_location.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_night_weather_fs_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_night_weather_fs_16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="About" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\About.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_check_on_disabled_focused_holo_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_check_on_disabled_focused_holo_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_sub_header_bg_dark_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_sub_header_bg_dark.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temparature_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\temparature_f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_night_weather_fs_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_night_weather_fs_12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_btn_location_focus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_btn_location_focus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hero_event_ic_my_birth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hero_event_ic_my_birth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="widget_masking_bg_jb_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\widget_masking_bg_jb.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_world" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_world.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_day_weather_fs_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_day_weather_fs_06.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Start.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="widget_bg_shadow_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\widget_bg_shadow.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_btn_add_disabled_dim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_btn_add_disabled_dim.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="motion_shake_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\motion_shake_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="widget_btn_refresh_pressed_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\widget_btn_refresh_pressed.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_night_weather_fs_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_night_weather_fs_02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_bg_cloudy_day_sky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_bg_cloudy_day_sky.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blacnk black button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blacnk black button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_detail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_detail.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Line" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Line.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_check_on_holo_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_check_on_holo_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_list_focused_holo_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_list_focused_holo.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_btn_search_press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_btn_search_press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_disable_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_disable.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="motion_shake_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\motion_shake_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_action_bar_icon_holo_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_action_bar_icon_holo_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_night_weather_fs_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_night_weather_fs_18.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CalcBasicP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CalcBasicP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_snow_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_snow_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_next_depth_disable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_next_depth_disable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Desktop3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Desktop3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trans" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trans.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hero_event_ic_contacts_birth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hero_event_ic_contacts_birth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fahrenheit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fahrenheit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_btn_location_disable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_btn_location_disable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_btn_disable_dark_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_btn_disable_dark.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temparature_c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\temparature_c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_bg_rain_night_sky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_bg_rain_night_sky.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_2nd_depth_temperature_divider" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_2nd_depth_temperature_divider.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_textfield_activated_holo_dark_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_textfield_activated_holo_dark.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_night_weather_fs_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_night_weather_fs_09.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_bg_cloudy_night_sky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_bg_cloudy_night_sky.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_bg_snow_night_sky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_bg_snow_night_sky.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_16_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_16_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="centigrade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\centigrade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_night_weather_fs_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_night_weather_fs_03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileExplorerDocuments" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FileExplorerDocuments.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_ic_menu_moreoverflow_normal_holo_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_ic_menu_moreoverflow_normal_holo_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_22_23_44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_22_23_44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="title_bar_setting_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\title_bar_setting_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="popup_city" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\popup_city.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_01_02_32dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_01_02_32dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_day_weather_fs_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_day_weather_fs_14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="application-exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\application-exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_normal_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_normal.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileExplorerPictures" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FileExplorerPictures.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_day_weather_fs_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_day_weather_fs_11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button weather map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button weather map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_bg_sunny_night_sky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_bg_sunny_night_sky.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_night_weather_fs_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_night_weather_fs_14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DarkBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DarkBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_bg_cloudy_night_land" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_bg_cloudy_night_land.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_day_weather_fs_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_day_weather_fs_17.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_night_weather_fs_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_night_weather_fs_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_bg_rain_day_land" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_bg_rain_day_land.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sub_title_bg_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sub_title_bg_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blank button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blank button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_btn_search_disable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_btn_search_disable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_bg_snow_day_sky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_bg_snow_day_sky.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="time_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calculator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calculator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_textfield_disabled_holo_dark_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_textfield_disabled_holo_dark.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_day_weather_fs_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_day_weather_fs_13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_next_depth_pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_next_depth_pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_world_press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_world_press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_day_weather_fs_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_day_weather_fs_15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_widget_emboss_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_widget_emboss_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textfield_searchwidget_default_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textfield_searchwidget_default.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TopBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TopBar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_day_weather_fs_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_day_weather_fs_09.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_focus_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_focus.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Desktop2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Desktop2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="time_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileExplorerDocuments1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FileExplorerDocuments1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Launchpad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Launchpad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="widget_hero_icon_temperature" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\widget_hero_icon_temperature.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_bg_snow_day_land" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_bg_snow_day_land.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_20_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_20_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_night_weather_fs_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_night_weather_fs_10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button MyCity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button MyCity.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="winset_selectall_bg_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\winset_selectall_bg.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_search_dialog_voice_pressed_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_search_dialog_voice_pressed.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_night_weather_fs_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_night_weather_fs_15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_search_dialog_voice_default_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_search_dialog_voice_default.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_bg_rain_night_land" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_bg_rain_night_land.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_action_bar_icon_edit_holo_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_action_bar_icon_edit_holo_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Actions-help-about-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions-help-about-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hero_2nd_depth_horizontal_line_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hero_2nd_depth_horizontal_line.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="time_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_2nd_depth_plus_btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_2nd_depth_plus_btn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textfield_search_selected_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textfield_search_selected.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="time_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_rain_night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_rain_night.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_widget_thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_widget_thumbnail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_action_bar_icon_search_holo_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_action_bar_icon_search_holo_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_bg_cloudy_day_land" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_bg_cloudy_day_land.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_search_dialog_default_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_search_dialog_default.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_night_weather_fs_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_night_weather_fs_19.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="widget_hero_ic_current_location" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\widget_hero_ic_current_location.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_24_25_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_24_25_26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_world_disable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_world_disable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_day_weather_fs_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_day_weather_fs_16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_btn_normal_dark_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_btn_normal_dark.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_bg_sunny_day_land" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_bg_sunny_day_land.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WallpaperStudio10-80750" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WallpaperStudio10-80750.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_action_bar_icon_delete_holo_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_action_bar_icon_delete_holo_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_06_07_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_06_07_08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartBack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TopBarDarkBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TopBarDarkBlue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_action_bar_icon_cancel_02_holo_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_action_bar_icon_cancel_02_holo_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page-zoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page-zoom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_main_focus_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_main_focus.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_day_weather_fs_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_day_weather_fs_12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="accuweather_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\accuweather_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_focus_detail_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_focus_detail.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TasbkarTheme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TasbkarTheme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hero_2nd_depth_update_btn_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hero_2nd_depth_update_btn_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="widget_btn_refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\widget_btn_refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SettingsConcept" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SettingsConcept.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileExplorerVideos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FileExplorerVideos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_day_weather_fs_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_day_weather_fs_08.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="motion_shake_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\motion_shake_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_bg_sunny_night_land" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_bg_sunny_night_land.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="widget_hero_ic_current_location_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\widget_hero_ic_current_location_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_divider_vertical_dark_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_divider_vertical_dark.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_15_41_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_15_41_42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_01_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_01_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="time_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_2nd_add_bt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_2nd_add_bt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="divider_horizontal_dark_opaque_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\divider_horizontal_dark_opaque.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_press_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_press.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_next_depth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_next_depth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bottom_arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bottom_arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="widget_hero_ic_dst" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\widget_hero_ic_dst.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartButton1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartButton1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fahrenheit_city" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fahrenheit_city.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_widget_emboss_day" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_widget_emboss_day.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="widget_hero_icon_celsius" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\widget_hero_icon_celsius.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_btn_focus_dark_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_btn_focus_dark.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_textfield_search_default_holo_dark_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_textfield_search_default_holo_dark.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_btn_search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_btn_search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_normal_detail_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_normal_detail.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="time_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_2nd_depth_temperature" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_2nd_depth_temperature.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="centigrade_city" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\centigrade_city.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_snow_day" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_snow_day.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ep1_citadel_030027" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ep1_citadel_030027.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="widget_hero_icon_fahrenheit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\widget_hero_icon_fahrenheit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="accessories-calculator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\accessories-calculator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_list_icon_reorder_press_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_list_icon_reorder_press_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_main_press_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_main_press.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Desktop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Desktop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder-documents" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder-documents.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_menu_settings_account" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_menu_settings_account.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_btn_location_press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_btn_location_press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_action_bar_icon_check_holo_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_action_bar_icon_check_holo_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_ic_menu_moreoverflow_pressed_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_ic_menu_moreoverflow_pressed_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hero_default_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hero_default_bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_action_bar_icon_add_reject_list" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_action_bar_icon_add_reject_list.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_night_weather_fs_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_night_weather_fs_07.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileExplorerMusic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FileExplorerMusic1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="widget_btn_refresh_focus_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\widget_btn_refresh_focus.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_weather_setting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_weather_setting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_check_off_focused_holo_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_check_off_focused_holo_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_03_04_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_03_04_05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_reorder_list_pressed_dark_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_reorder_list_pressed_dark.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_action_bar_icon_change_order" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_action_bar_icon_change_order.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_btn_add_disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_btn_add_disabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WeatherIcon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WeatherIcon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="time_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_check_off_holo_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_check_off_holo_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_menu_settings_account_weather_setting_preferences" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_menu_settings_account_weather_setting_preferences.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="widget_masking_bg_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\widget_masking_bg.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weather_2nd_depth_celsius" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weather_2nd_depth_celsius.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_night_weather_fs_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_night_weather_fs_05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button More" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button More.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_ic_ab_back_holo_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw_ic_ab_back_holo_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enter2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enter2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

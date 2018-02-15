@@ -1,0 +1,1401 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PrisminOSCitadel
+</name>
+</assembly>
+<members>
+<member name="T:PrisminOSCitadel.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.About">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.accessories_calculator">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.accuweather_logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.accuweather_trayicon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.Actions_help_about_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.application_exit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.Blacnk_black_button">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.Blank_button">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.Blue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.bottom_arrow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_check_off_disabled_focused_holo_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_check_off_disabled_holo_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_check_off_focused_holo_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_check_off_holo_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_check_off_pressed_holo_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_check_on_disabled_focused_holo_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_check_on_disabled_holo_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_check_on_focused_holo_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_check_on_holo_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_check_on_pressed_holo_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_disable_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_focus_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_focus_detail_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_main_focus_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_main_press_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_next_depth">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_next_depth_disable">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_next_depth_pressed">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_normal_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_normal_detail_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_press_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_pressed_detail_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_search_dialog_default_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_search_dialog_voice_default_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_search_dialog_voice_pressed_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.btn_search_dialog_voice_selected_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.Button_More">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.Button_MyCity">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.Button_weather_map">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.CalcBasicP">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.Calculator">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.centigrade">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.centigrade_city">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.DarkBlue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.Desktop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.Desktop2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.Desktop3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.divider_horizontal_dark_opaque_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.Enter2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ep1_citadel_030027">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.fahrenheit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.fahrenheit_city">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.FileExplorerDocuments">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.FileExplorerDocuments1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.FileExplorerMusic">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.FileExplorerMusic1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.FileExplorerPictures">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.FileExplorerVideos">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.folder">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.folder_documents">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.hero_2nd_depth_bottom_temperature_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.hero_2nd_depth_bottom_temperature_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.hero_2nd_depth_celsius">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.hero_2nd_depth_horizontal_line_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.hero_2nd_depth_update_btn_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.hero_2nd_depth_vertical_line_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.hero_default_bg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.hero_event_ic_contacts_birth">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.hero_event_ic_my_birth">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.hero_event_ic_newyear">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_btn_add_disabled">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_btn_add_disabled_dim">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_btn_location">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_btn_location_disable">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_btn_location_focus">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_btn_location_press">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_btn_search">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_day_weather_fs_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_day_weather_fs_02">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_day_weather_fs_03">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_day_weather_fs_04">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_day_weather_fs_05">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_day_weather_fs_06">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_day_weather_fs_07">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_day_weather_fs_08">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_day_weather_fs_09">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_day_weather_fs_10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_day_weather_fs_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_day_weather_fs_12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_day_weather_fs_13">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_day_weather_fs_14">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_day_weather_fs_15">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_day_weather_fs_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_day_weather_fs_17">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_menu_change_order">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_menu_settings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_menu_settings_account">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_menu_settings_account_weather_setting_preferences">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_night_weather_fs_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_night_weather_fs_02">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_night_weather_fs_03">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_night_weather_fs_04">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_night_weather_fs_05">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_night_weather_fs_06">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_night_weather_fs_07">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_night_weather_fs_08">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_night_weather_fs_09">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_night_weather_fs_10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_night_weather_fs_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_night_weather_fs_12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_night_weather_fs_13">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_night_weather_fs_14">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_night_weather_fs_15">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_night_weather_fs_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_night_weather_fs_17">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_night_weather_fs_18">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_night_weather_fs_19">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ic_night_weather_fs_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.icon_btn_search">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.icon_btn_search_disable">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.icon_btn_search_press">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.icon_world">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.icon_world_disable">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.icon_world_press">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.Launchpad">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.Line">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.Line2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.list">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.motion_shake_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.motion_shake_02">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.motion_shake_03">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.page_zoom">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.popup_city">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.popup_city_focus_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.popup_city_normal_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.popup_city_pressed_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.refresh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.SettingsConcept">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.ShortcutFiles">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.Start">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.Start2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.StartBack">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.StartButton">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.StartButton1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.sub_title_bg_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.TasbkarTheme">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.Taskbar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.TaskbarThemep">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.temparature_c">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.temparature_f">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.temparature_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.textfield_search_pressed_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.textfield_search_selected_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.textfield_searchwidget_default_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.time_0">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.time_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.time_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.time_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.time_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.time_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.time_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.time_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.time_8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.time_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.time_center">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.title_bar_list_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.title_bar_setting_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.top_arrow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.TopBar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.TopBarDarkBlue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.trans">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_ab_transparent_dark_holo_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_action_bar_bottom_moreoverflow_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_action_bar_icon_add_reject_list">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_action_bar_icon_cancel_02_holo_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_action_bar_icon_change_order">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_action_bar_icon_check_holo_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_action_bar_icon_delete_holo_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_action_bar_icon_edit_holo_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_action_bar_icon_holo_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_action_bar_icon_new_add_holo_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_action_bar_icon_search_holo_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_action_bar_icon_setting_holo_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_btn_disable_dark_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_btn_focus_dark_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_btn_normal_dark_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_btn_press_dark_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_btn_select_dark_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_divider_vertical_dark_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_ic_ab_back_holo_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_ic_menu_moreoverflow_normal_holo_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_ic_menu_moreoverflow_pressed_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_list_focused_holo_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_list_focused_holo_dark_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_list_icon_reorder">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_list_icon_reorder_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_list_icon_reorder_press_dark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_list_pressed_holo_dark_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_list_selected_holo_dark_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_reorder_list_pressed_dark_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_sub_action_bar_bg_holo_dark_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_sub_header_bg_dark_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_textfield_activated_holo_dark_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_textfield_disabled_holo_dark_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_textfield_search_default_holo_dark_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_textfield_search_selected_holo_dark_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.tw_weather_setting">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.WallpaperStudio10_80750">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_01_02">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_01_02_32dp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_03_04_05">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_06_07_08">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_12_13_39_40">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_14">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_15_41_42">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_16_17">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_18">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_19_43">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_20_21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_22_23_44">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_24_25_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_29">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_2nd_add_bt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_2nd_depth_celsius">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_2nd_depth_fahrenheit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_2nd_depth_logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_2nd_depth_plus_btn">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_2nd_depth_temperature">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_2nd_depth_temperature_divider">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_30">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_31">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_33">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_34_35_36_37">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_38">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_bg_cloudy_day_land">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_bg_cloudy_day_sky">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_bg_cloudy_night_land">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_bg_cloudy_night_sky">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_bg_rain_day_land">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_bg_rain_day_sky">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_bg_rain_night_land">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_bg_rain_night_sky">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_bg_snow_day_land">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_bg_snow_day_sky">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_bg_snow_night_land">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_bg_snow_night_sky">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_bg_sunny_day_land">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_bg_sunny_day_sky">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_bg_sunny_night_land">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_bg_sunny_night_sky">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_rain_day">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_rain_night">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_snow_day">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_snow_night">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_widget_emboss_day">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_widget_emboss_night">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.weather_widget_thumbnail">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.WeatherIcon2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.widget_bg_shadow_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.widget_btn_refresh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.widget_btn_refresh_focus_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.widget_btn_refresh_pressed_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.widget_hero_divider">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.widget_hero_ic_current_location">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.widget_hero_ic_current_location_small">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.widget_hero_ic_dst">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.widget_hero_icon_celsius">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.widget_hero_icon_fahrenheit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.widget_hero_icon_temperature">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.widget_masking_bg_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.widget_masking_bg_jb_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrisminOSCitadel.My.Resources.Resources.winset_selectall_bg_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
